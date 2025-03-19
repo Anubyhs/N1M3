@@ -8,11 +8,6 @@ import java.util.NoSuchElementException;
 import java.util.Optional;
 import java.io.*;
 
-
-/**
- *
- * @author Anubyhs
- */
 public class PessoaFisicaRepo {
     
     private ArrayList<PessoaFisica> listaPessoasFisicas = new ArrayList<>();
@@ -62,4 +57,7 @@ public class PessoaFisicaRepo {
         arquivoEntrada.close();
         System.out.println("Dados de pessoas fisicas recuperados.");
     }
+
+    
 }
+

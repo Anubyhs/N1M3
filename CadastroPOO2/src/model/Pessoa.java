@@ -4,11 +4,6 @@
  */
 package model;
 
-/**
- *
- * @author Anubyhs
- */
-
 import java.io.Serializable;
 
 public class Pessoa implements Serializable{
@@ -39,6 +34,8 @@ public class Pessoa implements Serializable{
     
     //Método exibir
     public void exibir(){
+        // Verificar toString()
+        //return (this.id + "\t" + this.nome);
         System.out.print("id: "+this.id + "\n" + "Nome: " + this.nome + "\n");
     }
 }

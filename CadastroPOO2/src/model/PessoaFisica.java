@@ -4,11 +4,6 @@
  */
 package model;
 
-/**
- *
- * @author Anubyhs
- */
-
 import java.io.Serializable;
 
 public class PessoaFisica extends Pessoa implements Serializable {
@@ -39,7 +34,6 @@ public class PessoaFisica extends Pessoa implements Serializable {
         this.idade = idade;
     }
     
-    //Método exibir
     public void exibir(){
         System.out.print("\n"+"id: "+getId()+"\nNome: "+getNome()+ "\nCPF: "+this.cpf + "\n" + "Idade: " + this.idade + "\n");
     }

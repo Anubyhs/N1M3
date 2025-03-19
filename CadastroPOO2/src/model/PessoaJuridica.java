@@ -3,12 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package model;
-
-/**
- *
- * @author Anubyhs
- */
-
 import java.io.Serializable;
 
 public class PessoaJuridica extends Pessoa implements Serializable{

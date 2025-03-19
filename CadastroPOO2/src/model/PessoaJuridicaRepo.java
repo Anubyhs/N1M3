@@ -4,13 +4,10 @@
  */
 package model;
 import java.util.ArrayList;
+import java.util.NoSuchElementException;
 import java.util.Optional;
 import java.io.*;
- 
-/**
- *
- * @author Anubyhs
- */
+
 public class PessoaJuridicaRepo {
     
     private ArrayList<PessoaJuridica> listaPessoasJuridicas = new ArrayList<>();
@@ -55,4 +52,5 @@ public class PessoaJuridicaRepo {
         arquivoEntrada.close();
         System.out.println("Dados de pessoas juridicas recuperados.");
     }
+
 }
